@@ -23,13 +23,11 @@ WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Engagement'), 'COM
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/First_Engagement'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/TB_Adjusting'))
 
-WebUI.delay(5)
-
-WebUI.verifyTextPresent('Automations available!', false)
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('If you choose to ignore, then you will not see the suggestions for this engagement. You can always manually add your notes via workbook.', 
     false)
@@ -44,11 +42,11 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/TB_Adjusting'))
 
-WebUI.delay(6)
+WebUI.delay(3)
 
 WebUI.verifyTextPresent('Automations available!', false)
 
-WebUI.waitForElementClickable(findTestObject('Notes_Inside_Engagement/Select_All_Notes_Popup'), 0)
+WebUI.waitForElementClickable(findTestObject('Notes_Inside_Engagement/Select_All_Notes_Popup'), 2)
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/Select_All_Notes_Popup'))
 

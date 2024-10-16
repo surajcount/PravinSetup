@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Login_TC/Login'), [:], FailureHandling.CONTINUE
 
 WebUI.waitForPageLoad(10)
 
-int numberOfRuns = 4 // Specify how many times to run
+int numberOfRuns = 5 // Specify how many times to run
 
 for (int i = 0; i < numberOfRuns; i++) {
     WebUI.click(findTestObject('Create_Engagement_Pravin/Engagement_List'))
@@ -34,7 +34,7 @@ for (int i = 0; i < numberOfRuns; i++) {
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Client_Name_on_Popup'))
 
-    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Test')
+    WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Navyuvak')
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Client'))
 
@@ -49,6 +49,8 @@ for (int i = 0; i < numberOfRuns; i++) {
     WebUI.setText(findTestObject('Create_Engagement_Pravin/Period_Year_End_Date'), '12/31/2023')
 
     WebUI.setText(findTestObject('Create_Engagement_Pravin/Budget'), '2000')
+
+    WebUI.scrollToElement(findTestObject('Create_Engagement_Pravin/Add_Engagement_Team_Member'), 0)
 
     WebUI.click(findTestObject('Create_Engagement_Pravin/Add_Engagement_Team_Member'))
 

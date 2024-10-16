@@ -31,7 +31,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Client_Name_on_Popup'))
 
-WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Test')
+WebUI.setText(findTestObject('Create_Engagement_Pravin/Search_Client'), 'Automation')
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Select_Client'))
 
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Create_Engagement_Pravin/Compilation_Type'))
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Proceed_on_popup'))
 
-WebUI.waitForPageLoad(5)
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Engagement_Template'))
 
@@ -54,6 +54,8 @@ WebUI.click(findTestObject('Create_Engagement_Pravin/Compilation_Eng_Template'))
 WebUI.setText(findTestObject('Create_Engagement_Pravin/Period_Year_End_Date'), '12/31/2023')
 
 WebUI.setText(findTestObject('Create_Engagement_Pravin/Budget'), '1000')
+
+WebUI.scrollToElement(findTestObject('Create_Engagement_Pravin/Add_Engagement_Team_Member'), 0)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/Add_Engagement_Team_Member'))
 

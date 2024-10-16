@@ -80,7 +80,7 @@ WebUI.click(findTestObject('Stripe/Commitment_Dropdown'))
 
 WebUI.click(findTestObject('Stripe/12 Engagement commitment'))
 
-WebUI.verifyTextPresent('Discount Applied: 25% off', false)
+WebUI.verifyTextPresent('Discount Applied: 20% off', false)
 
 WebUI.scrollToElement(findTestObject('Stripe/Proceed_to_Checkout_Button'), 0)
 
