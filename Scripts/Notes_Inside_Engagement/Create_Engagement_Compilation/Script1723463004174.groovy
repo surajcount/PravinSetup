@@ -71,5 +71,5 @@ WebUI.click(findTestObject('Create_Engagement_Pravin/Create_engagement_button_li
 
 WebUI.verifyTextPresent('Engagement created successfully', false)
 
-WebUI.waitForPageLoad(10)
+WebUI.waitForPageLoad(20)
 

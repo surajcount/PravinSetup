@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Period_Year_End_Date</name>
+   <name>Apply_to_note</name>
    <tag></tag>
-   <elementGuidId>22904c53-c648-4e6e-9c77-13c39f581301</elementGuidId>
+   <elementGuidId>bdf18edc-1d32-4a9e-abea-00136536a4cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='MM/DD/YYYY']</value>
+         <value>//span[normalize-space()='Apply To Note']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

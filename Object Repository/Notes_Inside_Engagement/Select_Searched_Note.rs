@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Period_Year_End_Date</name>
+   <name>Select_Searched_Note</name>
    <tag></tag>
-   <elementGuidId>22904c53-c648-4e6e-9c77-13c39f581301</elementGuidId>
+   <elementGuidId>465fa325-691a-40ad-a404-41189633abd2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='MM/DD/YYYY']</value>
+         <value>//li[@class='list-item-content ng-star-inserted search-highlight']/span/mat-checkbox</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

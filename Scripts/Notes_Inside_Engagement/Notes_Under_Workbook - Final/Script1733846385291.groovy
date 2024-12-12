@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Notes_Inside_Engagement/Add_Notes'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/From_Firm_Template'))
 
-WebUI.click(findTestObject('Notes_Inside_Engagement/Select_All_Notes_On_Drawer'))
+WebUI.click(findTestObject('Notes_Inside_Engagement/Test_Select_All'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/Add_Notes_On_Drawer'))
 
@@ -101,7 +101,7 @@ WebUI.click(findTestObject('Notes_Inside_Engagement/Add_Notes'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/From_Firm_Template'))
 
-WebUI.click(findTestObject('Notes_Inside_Engagement/Select_All_Notes_On_Drawer'))
+WebUI.click(findTestObject('Notes_Inside_Engagement/Test_Select_All'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/Add_Notes_On_Drawer'))
 
@@ -213,23 +213,21 @@ WebUI.click(findTestObject('Notes_Firm/Total_Column'))
 
 WebUI.click(findTestObject('Notes_Firm/Save_Table'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('Notes_Inside_Engagement/Created_Category'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/Add icon_create_category'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/From_Firm_Template'))
 
-WebUI.waitForElementClickable(findTestObject('Notes_Inside_Engagement/Select_All_Notes_On_Drawer'), 5)
-
-WebUI.click(findTestObject('Notes_Inside_Engagement/Select_All_Notes_On_Drawer'))
+WebUI.click(findTestObject('Notes_Inside_Engagement/Test_Select_All'))
 
 WebUI.click(findTestObject('Notes_Inside_Engagement/Add_Notes_On_Drawer'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.mouseOver(findTestObject('Notes_Inside_Engagement/Created_Category'))
 

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Period_Year_End_Date</name>
+   <name>Header_format</name>
    <tag></tag>
-   <elementGuidId>22904c53-c648-4e6e-9c77-13c39f581301</elementGuidId>
+   <elementGuidId>6e40362f-f089-4778-b091-4ae53ed6e170</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='MM/DD/YYYY']</value>
+         <value>//span[contains(text(),'Format')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(5)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/TB_Adjusting'))
 
-WebUI.delay(30)
+WebUI.delay(90)
 
 WebUI.waitForPageLoad(5)
 

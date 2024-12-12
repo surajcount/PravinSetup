@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Period_Year_End_Date</name>
+   <name>Apply_format</name>
    <tag></tag>
-   <elementGuidId>22904c53-c648-4e6e-9c77-13c39f581301</elementGuidId>
+   <elementGuidId>f32c8954-21f1-4059-a1d0-372edeaf59d2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='MM/DD/YYYY']</value>
+         <value>//span[normalize-space()='Apply']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -26,10 +26,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
+      <guid>1ddc1605-1e3a-470f-b464-d45176c0dcfc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Notes_Inside_Engagement/Edit_Format_Table</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
       <guid>5addf198-1c02-42ea-940a-bcbb8231aa25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Notes_Inside_Engagement/Notes_Under_Workbook - Rough</testCaseId>
+      <testCaseId>Test Cases/Notes_Inside_Engagement/Notes_Under_Workbook - Final</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

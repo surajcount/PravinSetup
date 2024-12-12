@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Period_Year_End_Date</name>
+   <name>Number_type</name>
    <tag></tag>
-   <elementGuidId>22904c53-c648-4e6e-9c77-13c39f581301</elementGuidId>
+   <elementGuidId>4b26cef3-d4b9-48c2-9916-60be5a2474a9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='MM/DD/YYYY']</value>
+         <value>(//input[@type='number'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

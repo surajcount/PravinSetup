@@ -33,11 +33,11 @@ WebUI.verifyTextPresent('Please select the plan that best suits your needs', fal
 
 WebUI.click(findTestObject('Stripe/Select_Plan_Accelerate'))
 
-WebUI.verifyTextPresent('You are about to subscribe to the Essentials Monthly Plan', false)
+WebUI.verifyTextPresent('You are about to subscribe to the Accelerate Monthly Plan', false)
 
 WebUI.click(findTestObject('Stripe/Confirm_on_Popup'))
 
-WebUI.verifyTextPresent('Essentials Monthly', false)
+WebUI.verifyTextPresent('Accelerate Monthly', false)
 
 WebUI.verifyTextPresent('Supercharge Your Workflow', false)
 

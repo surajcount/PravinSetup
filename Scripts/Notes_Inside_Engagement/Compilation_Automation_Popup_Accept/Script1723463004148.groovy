@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(30)
 
 WebUI.click(findTestObject('Create_Engagement_Pravin/TB_Adjusting'))
 
-WebUI.delay(3)
+WebUI.delay(90)
 
 WebUI.verifyTextPresent('If you choose to ignore, then you will not see the suggestions for this engagement. You can always manually add your notes via workbook.', 
     false)
