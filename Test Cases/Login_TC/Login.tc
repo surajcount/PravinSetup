@@ -24,6 +24,12 @@
       <value></value>
       <variableId>720c1a4c-059a-44a0-8707-37a4213e3932</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cdde8d2-a5d1-4093-a855-8d22d3c9906a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.UAT</defaultValue>
       <description></description>
@@ -44,5 +50,12 @@
       <id>720c1a4c-059a-44a0-8707-37a4213e3932</id>
       <masked>false</masked>
       <name>UATUSER</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.QA1</defaultValue>
+      <description></description>
+      <id>0cdde8d2-a5d1-4093-a855-8d22d3c9906a</id>
+      <masked>false</masked>
+      <name>QA1</name>
    </variable>
 </TestCaseEntity>

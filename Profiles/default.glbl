@@ -19,4 +19,9 @@
       <initValue>'hardayals@yopmail.com'</initValue>
       <name>UAT_User</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>QA1 </description>
+      <initValue>'https://qa1.adinovis.com/login'</initValue>
+      <name>QA1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
