@@ -6,4 +6,43 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a884fae6-af08-483d-95e0-7f2857c056c8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ef31de71-808c-4f6c-a1c3-171096ba7fde</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>866dd640-d7a6-4cc7-b370-92fed668b5a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>720c1a4c-059a-44a0-8707-37a4213e3932</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.UAT</defaultValue>
+      <description></description>
+      <id>ef31de71-808c-4f6c-a1c3-171096ba7fde</id>
+      <masked>false</masked>
+      <name>UAT</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.PROD</defaultValue>
+      <description></description>
+      <id>866dd640-d7a6-4cc7-b370-92fed668b5a6</id>
+      <masked>false</masked>
+      <name>PROD</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.UAT_User</defaultValue>
+      <description></description>
+      <id>720c1a4c-059a-44a0-8707-37a4213e3932</id>
+      <masked>false</masked>
+      <name>UATUSER</name>
+   </variable>
 </TestCaseEntity>

@@ -21,9 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://uat.adinovis.com/login')
+WebUI.navigateToUrl(UAT)
 
-WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email_mat-input-0'), 'hardayals@yopmail.com')
+WebUI.setText(findTestObject('Object Repository/LoginPage/input_Email_mat-input-0'), UATUSER)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/LoginPage/input_Password_mat-input-1'), '0yu2BuhvF5H+L+Dr3iRPjA==')
 

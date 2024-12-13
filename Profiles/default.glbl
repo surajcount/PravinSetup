@@ -4,4 +4,19 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>UAT</description>
+      <initValue>'https://uat.adinovis.com/login'</initValue>
+      <name>UAT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Production</description>
+      <initValue>'https://platform.countable.co/login'</initValue>
+      <name>PROD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>SuperAdmin</description>
+      <initValue>'hardayals@yopmail.com'</initValue>
+      <name>UAT_User</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
